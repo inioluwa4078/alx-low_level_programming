@@ -1,2 +1,15 @@
-VimCrypt~03!,=Ûî®$9„?´ø­Ï,›&A]A~’ÄuŞt¸£0j²R˜İpÔíÆĞH:FìC˜¸ºg-»—{·­ÙR®
-ûbôFÏÿŞ’SêH`õí’‚û!–•†Ÿ¤„Z§Ì·p5àe-CHt'¢[ØäSúÕ™‰ÛcıXH)^¡v0ÓV .4h2 }ôªXÿ†¡ğŞ•qF§X²*ïZZ"¬SQ0ŞäRàøåí]7`û9¬‹.BÖ›ìñ
+#include "main.h"
+/**
+ *mul - multiplies two ints.
+ *@a: integer.
+ *@b: integer.
+ *
+ *Return: product.
+ */
+int mul(int a, int b)
+{
+	int product;
+
+	product = a * b;
+	return (product);
+}
